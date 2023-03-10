@@ -1,7 +1,8 @@
-package com.educandoweb.course;
+package com.educaweb.course.resources;
 
+import com.educaweb.course.services.UserService;
+import com.educaweb.course.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

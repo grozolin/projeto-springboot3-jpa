@@ -1,5 +1,7 @@
-package com.educandoweb.course;
+package com.educaweb.course.resources;
 
+import com.educaweb.course.services.OrderService;
+import com.educaweb.course.entities.Order;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
